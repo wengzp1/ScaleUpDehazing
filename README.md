@@ -48,7 +48,7 @@ The file path should be the same as the following:
 ```
 ┬─ save_models
 │   ├─ nid
-│   │   ├─ dehazeformer-b.pth
+│   │   ├─ scaleupdehazing.pth
 │   │   └─ ... (model name)
 │   └─ ... (exp name)
 └─ data
@@ -70,12 +70,12 @@ You can modify the training settings for each experiment in the `configs` folder
 Then run the following script to train the model:
 
 ```sh
-python train_ct.py --model dehazeformer-b --dataset NID --exp nid
+python train_ct.py --model scaleupdehazing --dataset NID --exp nid
 ```
 Then you have obtained an initial pre-trained model. We will continue to perform self-supervised training on the obtained model.
 
 ```sh
-python train_ssl.py --model dehazeformer-b --dataset NID --exp nid
+python train_ssl.py --model scaleupdehazing --dataset NID --exp nid
 ```
 
 ### Test
@@ -83,6 +83,6 @@ python train_ssl.py --model dehazeformer-b --dataset NID --exp nid
 Run the following script to test the trained model:
 
 ```sh
-python test.py --model dehazeformer-b --dataset NID --exp nid
+python test.py --model scaleupdehazing --dataset NID --exp nid
 ```
 
