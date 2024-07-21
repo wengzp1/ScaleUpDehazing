@@ -77,7 +77,6 @@ Then you have obtained an initial pre-trained model. We will continue to perform
 ```sh
 python train_ssl.py --model dehazeformer-b --dataset NID --exp nid
 ```
-[TensorBoard](https://pytorch.org/docs/1.10/tensorboard.html) will record the loss and evaluation performance during training.
 
 ### Test
 
