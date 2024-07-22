@@ -22,7 +22,7 @@ the dehazing task. Our approach significantly outperforms other
 advanced methods in dehazing and produces dehazed images that
 are closest to real haze-free images.
 
-### Overview
+### Visual
 <img src="./figure/image1.png" width=100%>
 <img src="./figure/image2.png" width=100%>
 
