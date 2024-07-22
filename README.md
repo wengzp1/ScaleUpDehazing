@@ -1,7 +1,7 @@
 # CrossDehaze: Scaling Up Image Dehazing with Cross-Data Vision Alignment and Augmentation
 ### Overview
 <img src="./figure/image.png" width=100%>
-> **Abstract:** 
+**Abstract:** 
 In recent years, as computer vision tasks have increasingly relied on high-quality image inputs, the task of image dehazing has received significant attention.
 Previously, many methods based on priors and deep learning have been proposed to address the task of image dehazing.
 Ignoring the domain gap between different data, former de-hazing methods usually adopt multiple datasets for explicit training, which often makes the methods themselves be violated. To address this problem, we
@@ -23,6 +23,7 @@ are closest to real haze-free images.
 ### Overview
 <img src="./figure/image1.png" width=100%>
 <img src="./figure/image2.png" width=100%>
+
 ## Preparation
 
 ### Install
