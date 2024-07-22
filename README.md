@@ -1,6 +1,6 @@
 # CrossDehaze: Scaling Up Image Dehazing with Cross-Data Vision Alignment and Augmentation
 ### Overview
-<img src="./figure/iamge.png" width=100%>
+<img src="./figure/image.png" width=100%>
 > **Abstract:** 
 In recent years, as computer vision tasks have increasingly relied on high-quality image inputs, the task of image dehazing has received significant attention.
 Previously, many methods based on priors and deep learning have been proposed to address the task of image dehazing.
