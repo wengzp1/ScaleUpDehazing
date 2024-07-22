@@ -1,11 +1,11 @@
 {
-    "batch_size": 16,
+    "batch_size": 8,
     "patch_size": 256,
-    "valid_mode": "test",
+    "valid_mode": "valid",
     "edge_decay": 0,
-    "only_h_flip": false,
+    "only_h_flip": true,
     "optimizer": "adamw",
-    "lr": 2e-4,
-    "epochs":300,
-    "eval_freq": 1
+    "lr": 1e-4,
+    "epochs":1000,
+    "eval_freq": 10
 }
