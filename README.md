@@ -46,8 +46,7 @@ pip install -r requirements.txt
 
 ### Download
 
-You can download the pretrained models on[model](链接：https://pan.baidu.com/s/17x2p6dJqXj6VsS2RPbRAhQ?pwd=1234 
-提取码：1234).
+You can download the pretrained models on [[Baidu Drive](https://pan.baidu.com/s/1HPFKJaZ79dsSXOpXxie-7Q?pwd=1234)]
 
 
 The file path should be the same as the following:
