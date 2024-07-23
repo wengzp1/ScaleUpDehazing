@@ -71,7 +71,10 @@ The file path should be the same as the following:
 
 
 ### Train
-
+You can obtain the image after channel transfer using the following command line:
+```sh
+python ct.py
+```
 You can modify the training settings for each experiment in the `configs` folder.
 Then run the following script to train the model:
 
