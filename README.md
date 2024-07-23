@@ -73,7 +73,7 @@ The file path should be the same as the following:
 
 
 ### Train
-You can obtain the image after channel transfer using the following command line:
+You can obtain the images after channel transfer:
 ```sh
 python ct.py
 ```
