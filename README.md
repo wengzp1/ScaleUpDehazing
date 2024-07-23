@@ -93,4 +93,4 @@ python test.py --model scaleupdehazing --dataset NID --exp nid
 ```
 
 ## Acknowledgement
-This project is build based on [DNANet](https://github.com/IDKiro/DehazeFormer). We thank the authors for sharing their code.
+This project is build based on [Dehazeformer](https://github.com/IDKiro/DehazeFormer). We thank the authors for sharing their code.
