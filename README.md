@@ -47,7 +47,8 @@ pip install -r requirements.txt
 ### Download
 
 You can download the pretrained models on [[Baidu Drive](https://pan.baidu.com/s/1HPFKJaZ79dsSXOpXxie-7Q?pwd=1234)]
-You can download the dataset on [[Trinity-Net](https://github.com/chi-kaichen/Trinity-Net)]
+
+You can download the dataset on [[trinity](https://github.com/chi-kaichen/Trinity-Net)]
 
 
 The file path should be the same as the following:
