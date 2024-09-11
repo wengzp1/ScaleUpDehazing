@@ -1,4 +1,4 @@
-# CrossDehaze: Scaling Up Image Dehazing with Cross-Data Vision Alignment and Augmentation
+
 ### Overview
 <img src="./figure/image.png" width=100%>
 
