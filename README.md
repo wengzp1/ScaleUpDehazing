@@ -83,8 +83,6 @@ Then run the following script to train the model:
 ```sh
 python trainct.py --model scaleupdehazing --dataset NID --exp nid
 ```
-Then you have obtained an initial pre-trained model. We will continue to perform self-supervised training on the obtained model.
-
 ```sh
 python trainssl.py --model scaleupdehazing --dataset NID --exp nid
 ```
