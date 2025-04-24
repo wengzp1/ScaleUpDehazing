@@ -92,7 +92,7 @@ python trainssl.py --model scaleupdehazing-b --dataset NID --exp nid
 Run the following script to test the trained model:
 
 ```sh
-python test.py --model scaleupdehazing --dataset NID --exp nid
+python test.py --model scaleupdehazing-b --dataset NID --exp nid
 ```
 
 ## Acknowledgement
