@@ -56,7 +56,7 @@ The file path should be the same as the following:
 ```
 ┬─ save_models
 │   ├─ nid
-│   │   ├─ scaleupdehazing.pth
+│   │   ├─ scaleupdehazing-b.pth
 │   │   └─ ... (model name)
 │   └─ ... (exp name)
 └─ data
