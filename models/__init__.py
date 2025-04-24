@@ -1,1 +1,1 @@
-from .dehazeformer import dehazeformer_t, dehazeformer_s, dehazeformer_b, dehazeformer_d, dehazeformer_w, dehazeformer_m, dehazeformer_l, DehazeFormer
+from .scaleupdehazing import scaleupdehazing_t, scaleupdehazing_s, scaleupdehazing_b, scaleupdehazing_d, scaleupdehazing_w, scaleupdehazing_m, scaleupdehazing_l, DehazeFormer
