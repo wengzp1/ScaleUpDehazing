@@ -491,7 +491,7 @@ class DehazeFormer(nn.Module):
 		return x
 
 
-def dehazeformer_t():
+def scaleupdehazing_t():
     return DehazeFormer(
 		embed_dims=[24, 48, 96, 48, 24],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -501,7 +501,7 @@ def dehazeformer_t():
 		conv_type=['DWConv', 'DWConv', 'DWConv', 'DWConv', 'DWConv'])
 
 
-def dehazeformer_s():
+def scaleupdehazing_s():
     return DehazeFormer(
 		embed_dims=[24, 48, 96, 48, 24],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -511,7 +511,7 @@ def dehazeformer_s():
 		conv_type=['DWConv', 'DWConv', 'DWConv', 'DWConv', 'DWConv'])
 
 
-def dehazeformer_b():
+def scaleupdehazing_b():
     return DehazeFormer(
         embed_dims=[24, 48, 96, 48, 24],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -521,7 +521,7 @@ def dehazeformer_b():
 		conv_type=['DWConv', 'DWConv', 'DWConv', 'DWConv', 'DWConv'])
 
 
-def dehazeformer_d():
+def scaleupdehazing_d():
     return DehazeFormer(
         embed_dims=[24, 48, 96, 48, 24],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -531,7 +531,7 @@ def dehazeformer_d():
 		conv_type=['DWConv', 'DWConv', 'DWConv', 'DWConv', 'DWConv'])
 
 
-def dehazeformer_w():
+def scaleupdehazing_w():
     return DehazeFormer(
         embed_dims=[48, 96, 192, 96, 48],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -541,7 +541,7 @@ def dehazeformer_w():
 		conv_type=['DWConv', 'DWConv', 'DWConv', 'DWConv', 'DWConv'])
 
 
-def dehazeformer_m():
+def scaleupdehazing_m():
     return DehazeFormer(
 		embed_dims=[24, 48, 96, 48, 24],
 		mlp_ratios=[2., 4., 4., 2., 2.],
@@ -551,7 +551,7 @@ def dehazeformer_m():
 		conv_type=['Conv', 'Conv', 'Conv', 'Conv', 'Conv'])
 
 
-def dehazeformer_l():
+def scaleupdehazing_l():
     return DehazeFormer(
 		embed_dims=[48, 96, 192, 96, 48],
 		mlp_ratios=[2., 4., 4., 2., 2.],
