@@ -81,10 +81,10 @@ You can modify the training settings for each experiment in the `configs` folder
 Then run the following script to train the model:
 
 ```sh
-python trainct.py --model scaleupdehazing --dataset NID --exp nid
+python trainct.py --model scaleupdehazing-b --dataset NID --exp nid
 ```
 ```sh
-python trainssl.py --model scaleupdehazing --dataset NID --exp nid
+python trainssl.py --model scaleupdehazing-b --dataset NID --exp nid
 ```
 
 ### Test
